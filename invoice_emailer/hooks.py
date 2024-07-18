@@ -4,7 +4,10 @@ app_publisher = "Mohammed Anas"
 app_description = "This App Sends Sales Invoice Email "
 app_email = "anasm8481@gmail.com"
 app_license = "mit"
-# required_apps = []
+required_apps = ["frappe/erpnext"]
+doctype_js ={
+    "Item":"public/js/my_button.js"
+}
 
 # Includes in <head>
 # ------------------
